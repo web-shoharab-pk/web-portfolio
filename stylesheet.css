@@ -6,8 +6,14 @@ body{
 h1{
     font-size: 45px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: rgb(104, 103, 103);
+}
 section{
-    height: 50vh;
+    height: 75vh;
     width: 100%;
 }
 .top-banner{
@@ -18,7 +24,7 @@ section{
     color: orange;
 }
 .half-width{
-    width: 46%;
+    width: 45%;
     float: left;
     margin-left: 2%;
     padding-left: 1%;
@@ -41,4 +47,27 @@ section{
     text-decoration: underline;
     padding: 10px 20px;
     background: linear-gradient(to right, #ff5100a4, orange);
+}
+
+
+.resume-button{
+    text-decoration: none;
+    border: 2px solid #ff4400c7;
+    border-radius: 10px;
+    background: linear-gradient(to right, orange, #ff5100b2);
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s; 
+}
+.resume-button:hover{
+    text-decoration: underline;
+    padding: 10px 25px;
+    background: linear-gradient(to right, #ff5100a4, orange);  
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
