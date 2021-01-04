@@ -2,38 +2,38 @@ body{
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-  
 }
+
 h1{
     font-size: 45px;
 }
+
 h2{
     font-size: 35px;
 }
+
 p{
     color: rgb(104, 103, 103);
 }
 section{
-    /* height: 80vh; */
-    
-    width: 100%;
-     
+    height: 80vh;
+    width: 100%;    
 }
 .top-banner{
     padding-top: 4vh;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
-    height: 60vh;
-    
+   
 }
+
 .navbar{  
     background-color: orange;
     text-align: center;
     color: white;
-    height: 4vh;
+    height: 2rem;
     width: 100%;
     position: fixed;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 .navbar-link{
@@ -41,8 +41,12 @@ section{
     text-decoration: none;
     font-size: 20px;
     font-weight: 600;
-   margin:40px;
-   padding: 4px;
+   margin:0px 20px;
+
+   border-left: 2px solid white ;
+   border-right: 2px solid white ;
+   padding: 2px 15px;
+
    
 }
 .navbar-link:hover{
@@ -59,6 +63,7 @@ section{
     float: left;
     margin-left: 3%;
     padding-left: 1%;
+    
 }
 .half-width img{
     width: 100%;
@@ -105,7 +110,7 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
-    height: 95vh;
+    height: 100vh;
  
 }
 .dream{
@@ -148,6 +153,6 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
-    color: red;
+    color: #ff0000d8;
     font-size: 20px;
 }
