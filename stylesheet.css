@@ -14,32 +14,59 @@ p{
     color: rgb(104, 103, 103);
 }
 section{
-    height: 65vh;
+    /* height: 80vh; */
     
     width: 100%;
      
 }
 .top-banner{
+    padding-top: 4vh;
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    height: 60vh;
+    
+}
+.navbar{  
+    background-color: orange;
+    text-align: center;
+    color: white;
+    height: 4vh;
+    width: 100%;
+    position: fixed;
+    margin-bottom: 5px;
 }
 
+.navbar-link{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+   margin:40px;
+   padding: 4px;
+   
+}
+.navbar-link:hover{
+    text-decoration: underline;
+    background-color: #ff5200;
+   
+}
 .orange-highlight{
     color: orange;
+    
 }
 .half-width{
     width: 45%;
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
     padding-left: 1%;
 }
 .half-width img{
     width: 100%;
 }
-.half-width.Dream {
-    height: 500px; 
+/* .half-width.Dream {
+    height: 500px; }
     /* problem */
-}
+
 .link-button{
     text-decoration: none;
     border: 2px solid #ff4400c7;
@@ -78,15 +105,19 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right bottom;
+    height: 95vh;
  
+}
+.dream{
+    margin-top: 60px;
 }
   .experience-area{
     background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
+    height: 50vh;
   }   
   
- 
 .single-experience{
     height: 300px;
     box-shadow: 5px 5px 30px 5px gray;
@@ -117,4 +148,6 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+    color: red;
+    font-size: 20px;
 }
